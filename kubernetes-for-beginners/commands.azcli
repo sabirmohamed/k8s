@@ -1,0 +1,7 @@
+#Inspect what happened to the replicaset / more info
+
+ kubectl describe replicaset [name of the replicaset]
+
+# Delete replicaset also deletes all underlying PODs
+
+ kubectl delete replicaset frontend
