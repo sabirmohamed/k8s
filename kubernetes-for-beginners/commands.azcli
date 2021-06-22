@@ -5,3 +5,5 @@
 # Delete replicaset also deletes all underlying PODs
 
  kubectl delete replicaset frontend
+ 
+ kubectl get rs new-replica-set -o yaml > new-replica-set.yaml
